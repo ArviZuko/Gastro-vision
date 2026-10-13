@@ -1,0 +1,6 @@
+PyQt5==5.15.10
+PySide6==6.7.0
+opencv-python==4.9.0.80
+ultralytics==8.1.29
+torch==2.2.1
+torchvision==0.17.1
