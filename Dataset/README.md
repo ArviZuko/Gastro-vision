@@ -1,6 +1,6 @@
 # ?? Esophageal Cancer Dataset - Analysis & Preprocessing Report
 
-?? **Direct Google Drive Link:** [Esophageal Cancer Dataset on Google Drive](https://drive.google.com/file/d/1URmuzmPbkAOGwBG36q6BjtD-elLEnn2j/view?usp=sharing)
+The dataset images and their annotation files are stored in this directory under `train/`, `valid/`, and `test/`. Images use **Git LFS**; install Git LFS before cloning this repository and run `git lfs pull` to retrieve their full contents. The original Google Drive download is not required to obtain these checked-in files.
 
 A pre-split, class-balanced dataset of endoscopic images for binary classification, covering two conditions: **Adenocarcinoma (AP)** and **Mucosal Pattern (MP)**.
 
@@ -32,11 +32,11 @@ split_output/
 +-- ?? split_manifest.json         # Per-image path + class + split record
 +-- ?? split_summary.txt           # Plain-text summary
 +-- ?? train/
-¦   +-- AP/
-¦   +-- MP/
+Â¦   +-- AP/
+Â¦   +-- MP/
 +-- ?? val/
-¦   +-- AP/
-¦   +-- MP/
+Â¦   +-- AP/
+Â¦   +-- MP/
 +-- ?? test/
     +-- AP/
     +-- MP/
