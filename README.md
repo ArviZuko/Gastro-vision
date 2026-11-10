@@ -2,20 +2,22 @@
 
 An advanced multi-architecture AI system for real-time detection and screening of cancer pathologies.
 
+The application, installer, model weights, demonstration video, and dataset images are stored directly in their repository folders using **Git LFS**. Install Git LFS before cloning, or run `git lfs pull` in an existing clone to retrieve the complete files.
+
 ## Repository Structure
 
 `
 project-root/
 +-- Dataset/
-¦   +-- Report/
+Â¦   +-- Report/
 +-- Models/
 +-- App/
-¦   +-- .exe/
-¦   +-- ISS/
-¦   +-- Source Code/
+Â¦   +-- .exe/
+Â¦   +-- ISS/
+Â¦   +-- Source Code/
 +-- Document/
-¦   +-- Comprehensive_Doc/
-¦   +-- PPT/
+Â¦   +-- Comprehensive_Doc/
+Â¦   +-- PPT/
 +-- Evaluation/
 +-- Output/
 +-- .gitignore
@@ -25,11 +27,14 @@ project-root/
 
 ## Quick Start & Setup Guide
 
-1. **Clone the Repository**
-   `ash
-   git clone <repository_url>
-   cd cancer_detection_app
-   `
+1. **Clone the repository with Git LFS**
+
+   ```bash
+   git lfs install
+   git clone https://github.com/ArviZuko/Gastro-vision.git
+   cd Gastro-vision
+   git lfs pull
+   ```
 
 2. **Set Up Virtual Environment (Recommended)**
    `ash
