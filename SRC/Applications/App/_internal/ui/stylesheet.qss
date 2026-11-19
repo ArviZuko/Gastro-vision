@@ -1,0 +1,164 @@
+/* 
+ * AI-DIAGNOSTIX PREMIUM THEME
+ * Professional Medical AI Dashboard
+ */
+
+QMainWindow {
+    background-color: #e5e5e5;
+    font-family: 'Segoe UI', 'Outfit', sans-serif;
+}
+
+/* Header Section */
+#headerFrame {
+    background: #f5f5f5;
+    border-radius: 20px;
+    margin: 15px 20px;
+    border: 1px solid #d4d4d4;
+}
+
+#headerTitle {
+    font-size: 32px;
+    font-weight: 850;
+    color: #0f172a;
+    letter-spacing: 2px;
+}
+
+/* Video Panels */
+.videoPanelCard {
+    background: #f5f5f5;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+#panelWLI { border-color: #3b82f6; }
+#panelEnhanced { border-color: #10b981; }
+#panelAI { border-color: #ef4444; }
+
+.panelTitleBar {
+    background: transparent;
+    padding: 8px 15px;
+}
+
+.panelTitleLabel {
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.videoArea {
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.controlStrip {
+    background: #e5e5e5;
+    border-top: 1px solid #d4d4d4;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px 10px;
+}
+
+/* Snapshots */
+#snapshotArea {
+    background: transparent;
+    margin: 0px 20px;
+}
+
+.snapshotCard {
+    background: #f5f5f5;
+    border: 2px dashed #cbd5e1;
+    border-radius: 15px;
+    min-width: 180px;
+    min-height: 120px;
+}
+
+.snapshotLabel {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Bottom Control Panel */
+#bottomPanel {
+    background: #f5f5f5;
+    border-top: 1px solid #d4d4d4;
+    border-radius: 25px;
+    margin: 10px 20px;
+    padding: 15px;
+}
+
+#logoTitle {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0f172a;
+    letter-spacing: 1px;
+}
+
+#logoSubtitle {
+    font-size: 12px;
+    color: #3b82f6;
+    font-weight: 700;
+}
+
+/* Patient Input */
+#patientInput {
+    background: #ffffff;
+    border: 2px solid #f1f5f9;
+    border-radius: 15px;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #1e293b;
+}
+
+/* Buttons */
+.actionButton {
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btnSubtext {
+    font-size: 9px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#btnSave { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #10b981, stop:1 #059669); }
+#btnLoad { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #06b6d4, stop:1 #0891b2); }
+#btnStart { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #f59e0b, stop:1 #d97706); }
+#btnPause { background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #ef4444, stop:1 #dc2626); }
+
+/* Progress */
+#progressTitle {
+    font-size: 11px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+QProgressBar {
+    background-color: #f1f5f9;
+    border-radius: 4px;
+    text-align: center;
+    height: 8px;
+    border: none;
+}
+
+QProgressBar::chunk {
+    background-color: #3b82f6;
+    border-radius: 4px;
+}
+
+/* Footer */
+#footerBar {
+    background-color: #0f172a;
+    padding: 8px 30px;
+}
+
+#footerText {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 500;
+}

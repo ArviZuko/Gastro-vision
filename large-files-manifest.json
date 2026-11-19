@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "DOCUMENTATION/VIDEO.mp4",
+      "size": 275052255,
+      "sha256": "59e15a6489dd2235cc7ecdc9ba11d7986e1201cd4cfbde1f9ae3ea1085c78277",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Gastro-vision/releases/download/large-files-no-lfs/VIDEO.mp4",
+          "size": 275052255,
+          "sha256": "59e15a6489dd2235cc7ecdc9ba11d7986e1201cd4cfbde1f9ae3ea1085c78277",
+          "name": "VIDEO.mp4"
+        }
+      ]
+    },
+    {
+      "path": "SRC/Applications/App/_internal/_polars_runtime_32/_polars_runtime.pyd",
+      "size": 156090880,
+      "sha256": "b874f04c8d4f8138b605bbc0d9c79ca9ca786576021d7167873acf8e1f26858a",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Gastro-vision/releases/download/large-files-no-lfs/_polars_runtime.pyd",
+          "size": 156090880,
+          "sha256": "b874f04c8d4f8138b605bbc0d9c79ca9ca786576021d7167873acf8e1f26858a",
+          "name": "_polars_runtime.pyd"
+        }
+      ]
+    },
+    {
+      "path": "SRC/Applications/App/_internal/torch/lib/torch_cpu.dll",
+      "size": 255795200,
+      "sha256": "baec84e402838f7acbcbbc7913eee7a3d6bdbe7bf800a961b3af912ac0235a94",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Gastro-vision/releases/download/large-files-no-lfs/torch_cpu.dll",
+          "size": 255795200,
+          "sha256": "baec84e402838f7acbcbbc7913eee7a3d6bdbe7bf800a961b3af912ac0235a94",
+          "name": "torch_cpu.dll"
+        }
+      ]
+    },
+    {
+      "path": "SRC/Applications/Installer/ClinicalCancerSystem_Setup.exe",
+      "size": 474947111,
+      "sha256": "db5ddb0c1cb23911bae3603190478143bf3906b9b501136a9995701ab396a60a",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Gastro-vision/releases/download/large-files-no-lfs/ClinicalCancerSystem_Setup.exe",
+          "size": 474947111,
+          "sha256": "db5ddb0c1cb23911bae3603190478143bf3906b9b501136a9995701ab396a60a",
+          "name": "ClinicalCancerSystem_Setup.exe"
+        }
+      ]
+    },
+    {
+      "path": "Screenshots/Screen Recording 2026-08-04 184627.mp4",
+      "size": 112953779,
+      "sha256": "c5b2c76e35fc51683dc34d6ad33696f213302b24b2324f97fca27fafa0dc1d26",
+      "parts": [
+        {
+          "url": "https://github.com/ArviZuko/Gastro-vision/releases/download/large-files-no-lfs/Screen.Recording.2026-08-04.184627.mp4",
+          "size": 112953779,
+          "sha256": "c5b2c76e35fc51683dc34d6ad33696f213302b24b2324f97fca27fafa0dc1d26",
+          "name": "Screen Recording 2026-08-04 184627.mp4"
+        }
+      ]
+    }
+  ]
+}
